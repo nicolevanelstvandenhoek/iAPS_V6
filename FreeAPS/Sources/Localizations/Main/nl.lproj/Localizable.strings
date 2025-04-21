@@ -2434,13 +2434,13 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 "Enables an increased basal rate after an EatingSoon Override Target (or Temp Target) and a manual bolus to saturate the infusion site with insulin to increase insulin absorption for SMB's following a meal with no carb counting." = "Hiermee wordt een verhoogde basaalstand ingeschakeld na een EatingSoon Override Target (of een tijdelijke doelwaarde) en een handmatige bolus. Dit helpt de infusieplaats te verzadigen met insuline, waardoor de insulineabsorptie verbetert en SMB’s (Smart Micro Boluses) na een maaltijd zonder koolhydraten tellen effectiever worden.";
 
 /* */
-"ISF weight while BG decelerates" = "ISF-waarde terwijl de bloedsuikerspiegel vertraagt";
+"ISF weight while BG decelerates" = "ISF-waarde terwijl de bloedglucose langzamer verandert";
 
 /* */
 "This is the weight applied while glucose decelerates and which weakens ISF. With 0 this contribution is effectively disabled. 0.1 might be a good starting point." = "Dit is de waarde die wordt toegepast terwijl je glucose verlaagt en ISF verzwakt. Met 0 is deze bijdrage effectief uitgeschakeld. 0.1 kan een goed uitgangspunt zijn.";
 
 /* */
-"ISF weight while BG accelerates" = "ISF-waarde terwijl de bloedsuikerspiegel vertraagt";
+"ISF weight while BG accelerates" = "ISF-waarde terwijl de bloedglucose sneller verandert";
 
 /* */
 "Default value: 0. This is the weight applied while glucose accelerates and which strengthens ISF. With 0 this contribution is effectively disabled. 0.02 is a safe starting point, from which to move up. Typical settings are around 0.15!" = "Standaard waarde: 0. Dit is de waarde die wordt toegepast tijdens het versnellen van glucose en dat ISF versterkt. Met 0 is deze bijdrage effectief uitgeschakeld. 0.02 is een veilig beginpunt, van waaruit je kunt bewegen. Gebruikelijke instellingen zijn ongeveer 0.15!";
@@ -2479,7 +2479,7 @@ Je kunt maar één app tegelijk gebruiken die via bluetooth met de sensor commun
 "Duration Weight" = "Duur hoeveelheid";
 
 /* */
-"Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Hoeeveelheid voor een langdurig hoge glucose. Voor elk uur dat de glucose hoog blijft, zal deze aanpassing je ISF verder verlagen.\n\nDe formule voor de Dura ISF-aanpassing is:\n\nDura ISF = 1 + uren boven doel * hoeveelheid / doel * (gemiddelde glucose - doelglucose)";
+"Weight for a prolonged high glucose. For every hour the glucose stays high this adjustment will lower your ISF more.\n\nThe formula for Dura ISF adjustment is:\n\nDura ISF = 1 + hours above target * weight / target * (average glucose - target glucose)" = "Hoeveelheid voor een langdurig hoge glucose. Voor elk uur dat de glucose hoog blijft, zal deze aanpassing je ISF verder verlagen.\n\nDe formule voor de Dura ISF-aanpassing is:\n\nDura ISF = 1 + uren boven doel * hoeveelheid / doel * (gemiddelde glucose - doelglucose)";
 
 /* */
 "SMB Delivery Ratio BG Range" = "SMB-afgifteverhouding voor bloedsuikerbereik";
